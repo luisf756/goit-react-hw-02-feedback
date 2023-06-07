@@ -11,6 +11,7 @@ const section = {
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
+  marginTop: '120px',
 };
 
 export const App = () => {
@@ -24,16 +25,16 @@ export const App = () => {
         flexDirection: 'column',
         fontSize: 40,
         color: '#010101',
-        marginBottom: '120px',
+        marginTop: '120px',
       }}
     >
-      Please leave feedback
+      <h1>Please leave feedback</h1>
       {/* <section style={section}>
       <FeedbackOptions>
       </section> */}
       <section style={section}>
         <FeedbackOptions  />
-        </section>
+      </section>
     </div>
     
   );

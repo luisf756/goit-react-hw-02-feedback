@@ -21,7 +21,7 @@ class FeedbackOptions extends React.Component {
       };
       
     render() {
-
+        
       return (
         <><section>
           <button onClick={this.incrementGood}>Good</button>
@@ -75,10 +75,6 @@ class FeedbackOptions extends React.Component {
     
 //   };
 
-//validation with proptypes
-// Satistics.propTypes = {
-//     color: PropTypes.string.isRequired,
-//     mark:  PropTypes.string.isRequired
-//   }
+
 
 export default FeedbackOptions;
