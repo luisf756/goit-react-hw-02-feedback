@@ -1,5 +1,6 @@
 import React from 'react';
 import { Statistics } from 'components/statistics/Statistics';
+import './Feddback.module.css';
 
 class FeedbackOptions extends React.Component {
     
@@ -22,10 +23,12 @@ class FeedbackOptions extends React.Component {
     render() {
 
       return (
-        <>
+        <><section>
           <button onClick={this.incrementGood}>Good</button>
           <button onClick={this.incrementBad}>Bad</button>
           <button onClick={this.incrementNeutral}>Neutral</button>
+        </section>
+          
           <Statistics 
                 state={this.state} 
                 total={this.state.good + this.state.bad+ this.state.neutral}

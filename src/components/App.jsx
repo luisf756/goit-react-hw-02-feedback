@@ -21,8 +21,10 @@ export const App = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        flexDirection: 'column',
         fontSize: 40,
-        color: '#010101'
+        color: '#010101',
+        marginBottom: '120px',
       }}
     >
       Please leave feedback
